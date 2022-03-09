@@ -1,24 +1,46 @@
-# SIN-Greenhouse
-
-Project Week 2022 Greenhouse
-
-SIN Greenhouse
-
-- Given:
-  - Industrial Ethernet - Profinet
-  - Sensor - Actuator
-  - PLC
-  - Industrial router
-- Goals:
-  - Dashboard
-    - MQTT
-  - Cybersecurity analysis
-    - Scanning tools
-    - Spoofing
-    - Countermeasures
+# Greenhouse
 
 ![Greenhouse](./img/Greenhouse.jpg)
-![Profinet](./img/PROFINET.png)
-![plc](./img/PLC_1200.jpg)
-![Dashboard](./img/Dashboard_HiveMQ.png)
-![Mqtt](./img/MQTT.png)
+
+## Team Members
+
+- Matias Vereecke
+- Maxim Govaert
+- Emiel Coucke
+
+## Materials
+
+- plc
+- 4 temperature sensors(inside/outside)
+- 1 of 2 Raspberry Pi 4 (Node Red and MQTT)
+- 2 monitors
+
+## Prerequisites
+
+Make sure you install following things on the pi:
+
+For Node Red:
+
+```bash
+apt-get install nodered
+node-red-pi --max-old-space-size=256
+sudo systemctl enable nodered.service
+```
+
+For MQTT:
+
+```bash
+sudo apt install mosquitto mosquitto-clients
+sudo systemctl enable mosquitto
+sudo systemctl status mosquitto
+
+apt update
+sudo apt install mosquitto-clients
+```
+
+```bash
+mosquitto_sub -d -u username -P password -t "sensor/temp1"
+mosquitto_sub -d -u username -P password -t "sensor/temp2"
+mosquitto_pub -d -u username -P password -t "sensor/temp1" -m 10
+mosquitto_pub -d -u username -P password -t "sensor/temp2" -m 10
+```
