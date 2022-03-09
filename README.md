@@ -35,3 +35,5 @@ sudo systemctl status mosquitto
 apt update
 sudo apt install mosquitto-clients
 ```
+
+
