@@ -19,3 +19,19 @@
 
 Make sure you install following things on the pi:
 
+For Node Red:
+```bash
+apt-get install nodered
+node-red-pi --max-old-space-size=256
+sudo systemctl enable nodered.service
+```
+
+For MQTT:
+```bash
+sudo apt install mosquitto mosquitto-clients
+sudo systemctl enable mosquitto
+sudo systemctl status mosquitto
+
+apt update
+sudo apt install mosquitto-clients
+```

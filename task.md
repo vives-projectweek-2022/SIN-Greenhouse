@@ -15,7 +15,7 @@ SIN Greenhouse
     - Spoofing
     - Countermeasures
 
-![Greenhouse](./img/Greenhouse.jpg)
+
 ![Profinet](./img/PROFINET.png)
 ![plc](./img/PLC_1200.jpg)
 ![Dashboard](./img/Dashboard_HiveMQ.png)
