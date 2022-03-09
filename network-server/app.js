@@ -21,7 +21,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Say to use the page you created
+// Add to use the page you created
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/values', valuesRouter);
