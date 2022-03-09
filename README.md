@@ -1,22 +1,21 @@
-# SIN-Greenhouse
-Project Week 2022 Greenhouse
-
-SIN Greenhouse
-- Given:
-  - Industrial Ethernet - Profinet
-  - Sensor - Actuator
-  - PLC
-  - Industrial router
-- Goals:
-  - Dashboard
-    - MQTT
-  - Cybersecurity analysis
-    - Scanning tools
-    - Spoofing
-    - Countermeasures
+# Greenhouse
 
 ![Greenhouse](./img/Greenhouse.jpg)
-![Profinet](./img/PROFINET.png)
-![plc](./img/PLC_1200.jpg)
-![Dashboard](./img/Dashboard_HiveMQ.png)
-![Mqtt](./img/MQTT.png)
+
+# Team Members
+
+- Matias Vereecke
+- Maxim Govaert
+- Emiel Coucke
+
+# materials
+
+- plc 
+- 4 temperature sensors(inside/outside)
+- 1 of 2 Raspberry Pi 4 (Node Red and MQTT)
+- 2 monitors
+
+# Prerequisites
+
+Make sure you install following things on the pi:
+
