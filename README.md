@@ -21,8 +21,7 @@ Make sure you install following things on the pi:
 
 For Node Red:
 ```bash
-apt-get install nodered
-node-red-pi --max-old-space-size=256
+bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
 sudo systemctl enable nodered.service
 ```
 
