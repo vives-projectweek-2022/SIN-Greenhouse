@@ -36,4 +36,9 @@ apt update
 sudo apt install mosquitto-clients
 ```
 
-
+```
+mosquitto_sub -d -u username -P password -t "sensor/temp1"
+mosquitto_sub -d -u username -P password -t "sensor/temp2"
+mosquitto_pub -d -u username -P password -t "sensor/temp1" -m 10
+mosquitto_pub -d -u username -P password -t "sensor/temp2" -m 10
+```
