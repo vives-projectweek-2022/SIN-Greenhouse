@@ -7,7 +7,9 @@ More information at [Express Getting Started](https://expressjs.com/en/starter/i
 
 ## Making changes
 
-To create a new page to request information from you need to create a new Javascript file in the folder routes. Then add the necessary links in app.js.
+The best way to interact with this project is to open all folders except node_modules.
+
+To create a new page to request information from, you need to create a new Javascript file in the folder routes. Then add the necessary links in app.js.
 
 ## Working with jade
 
