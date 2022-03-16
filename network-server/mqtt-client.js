@@ -3,7 +3,7 @@
 // Later this script will be placed in /javascripts to be linked with the server
 
 const mqtt = require('mqtt');
-const host = "mqtt://broker.hivemq.com:1883";
+const host = "mqtt://172.16.107.251:1883";
 const options = {
   // Clean session
   clean: true,
@@ -20,7 +20,7 @@ const client  = mqtt.connect(host, options);
 // Handles connection and subscribes to wished topics
 client.on("connect", () => {	
   console.log("Connected");
-  client.subscribe("subscriptions", { qos: 0 });
+  client.subscribe("sensor/outside", { qos: 0 });
 });
 
 // Handles failed connection
