@@ -12,11 +12,6 @@ client = mqtt.Client()
 client.on_connect = on_connect
 client.connect("172.16.107.251", 1883, 60)
 
-#randomlist = []
-#for i in range(0,5):
-#    n = random.randint(1,30)
-#    randomlist.append(n)
-#print(randomlist)
 
 # send a message to the raspberry/topic every 1 second, 5 times in a row
 motor_list = ["open","closed"]
