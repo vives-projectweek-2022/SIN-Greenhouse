@@ -1,7 +1,7 @@
 // It is possible to secure this with SSL
 // http://www.steves-internet-guide.com/using-node-mqtt-client/
 
-const mqtt = require('mqtt')
+const mqtt = require('mqtt');
 const options = {
   // Clean session
   clean: true,
@@ -10,20 +10,15 @@ const options = {
   // clientId: '',
   // username: '',
   // password: '',
-}
+};
 
 // Establishes connection
-const client  = mqtt.connect('broker-url', options);
-
-// Handles incoming messages
-client.on('message',function(topic, message, packet){
-	console.log("message is "+ message);
-	console.log("topic is "+ topic);
-});
+const client  = mqtt.connect("mqtt://broker.hivemq.com:1883", options);
 
 // Handles connection
 client.on("connect",function(){	
   console.log("Connected");
+  console.log(client.subscribe("subscriptions"));
 });
 
 // Handles failed connection
@@ -32,7 +27,12 @@ client.on("error",function(error){
   process.exit(1);
 });
 
-client.subscribe("payload");
+// Handles incoming messages
+client.on('message',function(topic, message, packet){
+  console.log("packet is "+ packet);
+	console.log("message is "+ message);
+	console.log("topic is "+ topic);
+});
 
 // This stops the connection to the broker
 // client.end();
