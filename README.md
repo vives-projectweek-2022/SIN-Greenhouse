@@ -15,6 +15,15 @@
 - 1 or 2 Raspberry Pi 4b (Node Red and MQTT)
 - 2 monitors
 
+## Schema
+
+|Schema|Mqtt_Schema|
+|---|---|
+|![Mqtt_Schema](img/Mqtt_Schema.png)|![Schema](img/Schema.png)|
+
+
+
+
 ## Prerequisites
 
 Make sure you install following things on the pi:
