@@ -12,7 +12,7 @@
 
 - plc
 - 4 temperature sensors(inside/outside)
-- 1 of 2 Raspberry Pi 4 (Node Red and MQTT)
+- 1 or 2 Raspberry Pi 4b (Node Red and MQTT)
 - 2 monitors
 
 ## Prerequisites
@@ -43,3 +43,11 @@ mosquitto_sub -d -u username -P password -t "sensor/temp2"
 mosquitto_pub -d -u username -P password -t "sensor/temp1" -m 10
 mosquitto_pub -d -u username -P password -t "sensor/temp2" -m 10
 ```
+
+## components
+
+see documentation: 
+- [mqtt](components/mqtt.md)
+- [security webpage](components/webpage.md)
+- [Node Red](components/nodered.md)
+
