@@ -1,0 +1,45 @@
+# Setup of Node-Red on RPI
+
+## installation
+
+### Setting up NodeRed
+
+1. Once you have access to the Raspberry Pi, update the list of available packages and their versions to start your solution with everything up-to-date.
+
+```bash
+sudo apt-get update
+```
+
+2. Install the latest version of packages - previously updated (step 2)
+
+```bash
+sudo apt-get upgrade
+```
+
+### Install/Upgrade Node-RED
+
+```bash
+bash <(curl -sL https://raw.githubusercontent.com/node-red/raspbian-deb-package/master/resources/update-nodejs-and-nodered)
+
+```
+
+![step1](/Node-Red/Img/RPI_Step1.jpg)
+Once the installation is finished, you will receive the following verification:
+![step2](/Node-Red/Img/RPI_Step2.jpg)
+
+### Autostart on boot
+
+```bash
+sudo systemctl enable nodered.service
+```
+
+## Implement all code in to node-red
+
+to access the Node-RED web interface using rpi ip:1880 or localhost:1880. When you run the URL address in your browser you should be able to visualize the Noded-RED interface as shown below:
+
+![node-red](/Node-Red/Img/node-red.png)
+
+
+
+
+<!-- https://help.ubidots.com/en/articles/1958375-how-to-install-node-red-in-raspberry-pi -->

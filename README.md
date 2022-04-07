@@ -12,3 +12,7 @@ sudo systemctl enable nodered.service
 ## MQTT
 
 [Mqtt install](/Mqtt_Script/MQTT_Setup.md)
+
+## NODE_RED
+
+[Mqtt install](/Node-Red/Node_Red.md)
