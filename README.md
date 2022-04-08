@@ -15,4 +15,4 @@ sudo systemctl enable nodered.service
 
 ## NODE_RED
 
-[Mqtt install](/Node-Red/Node_Red.md)
+[NODE_RED install](/Node-Red/Node_Red.md)
