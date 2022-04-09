@@ -34,11 +34,12 @@ bash <(curl -sL https://raw.githubusercontent.com/node-red/raspbian-deb-package/
 
 2. Once your image card has been updated, confirm the installation by inserting Y  when asked for verification.
 
-![step1](/Node-red/Img/RPI_Step1.jpg)
+<!-- ![step1](./Node-red/Img/RPI_Step1.jpg) -->
+![step1](./Img/RPI_Step1.jpg)
 
 Once the installation is finished, you will receive the following verification:
 
-![step2](/Node-Red/Img/RPI_Step2.jpg)
+![step2](./Node-Red/Img/RPI_Step2.jpg)
 
 ## Running Node-RED
 
@@ -52,12 +53,12 @@ The service is pointing to port **1880** : [http://{your\_pi\_ip-address}:1880](
 
 3. Once the Node-RED program has started, open a web-browser of your preference and in the URL navigation bar write the address shown in the first main line of your Node-RED terminal as captured below.
 
-![step3](/Node-Red/Img/RPI_Step3.jpg)
+![step3](./Node-Red/Img/RPI_Step3.jpg)
 
 4. To acces the Node-RED web interface use the [http://{your\_pi\_ip-address}:1880](http://{your\_pi\_ip-address}:1880).
 
-![node-red](/Node-Red/Img/node-red.png)
-![DashboardV1](/Node-Red/Img/DashboardV1.png)
+![node-red](./Node-Red/Img/node-red.png)
+![DashboardV1](./Node-Red/Img/DashboardV1.png)
 
 ## **Common Commands when using Node-RED with Raspberry Pis**
 
