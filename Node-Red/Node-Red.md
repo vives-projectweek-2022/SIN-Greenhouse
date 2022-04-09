@@ -38,7 +38,7 @@ bash <(curl -sL https://raw.githubusercontent.com/node-red/raspbian-deb-package/
 
 Once the installation is finished, you will receive the following verification:
 
-![step2](/Img/RPI_Step2.jpg)
+![step2](/Node-Red/Img/RPI_Step2.jpg)
 
 ## Running Node-RED
 
@@ -52,12 +52,12 @@ The service is pointing to port **1880** : [http://{your\_pi\_ip-address}:1880](
 
 3. Once the Node-RED program has started, open a web-browser of your preference and in the URL navigation bar write the address shown in the first main line of your Node-RED terminal as captured below.
 
-![step3](/Img/RPI_Step3.jpg)
+![step3](/Node-Red/Img/RPI_Step3.jpg)
 
 4. To acces the Node-RED web interface use the [http://{your\_pi\_ip-address}:1880](http://{your\_pi\_ip-address}:1880).
 
-![node-red](/Img/node-red.png)
-![DashboardV1](/Img/DashboardV1.png)
+![node-red](/Node-Red/Img/node-red.png)
+![DashboardV1](/Node-Red/Img/DashboardV1.png)
 
 ## **Common Commands when using Node-RED with Raspberry Pis**
 
@@ -81,7 +81,7 @@ node-red-stop
 
 ### Node Red Code
 
-[Node Red Code](/Node-red.js)
+[Node Red Code](/Node-Red/Node-red.js)
 
 - Extra Palette to install
     - node-red
