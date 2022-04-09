@@ -15,4 +15,4 @@ sudo systemctl enable nodered.service
 
 ## NODE_RED
 
-[NODE_RED install](/Node-Red/Node_Red.md)
+[NODE_RED install](/Node-Red/Node-Red.md)
