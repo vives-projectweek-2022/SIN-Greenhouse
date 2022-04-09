@@ -34,7 +34,7 @@ bash <(curl -sL https://raw.githubusercontent.com/node-red/raspbian-deb-package/
 
 2. Once your image card has been updated, confirm the installation by inserting Y  when asked for verification.
 
-![step1](/Img/RPI_Step1.jpg)
+![step1](/Node-red/Img/RPI_Step1.jpg)
 
 Once the installation is finished, you will receive the following verification:
 
