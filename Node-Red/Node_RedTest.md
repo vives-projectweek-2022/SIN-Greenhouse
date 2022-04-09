@@ -42,7 +42,8 @@ to access the Node-RED web interface using rpi ip:1880 or localhost:1880. When y
 ![node-red](/Img/node-red.png)| ![DashboardV1](/Img/DashboardV1.png)
 
 ### Node Red Code
-[Node Red Code](/Node-red.js) 
+
+[Node Red Code](/Node-red.js)
 
 - Extra Palette to install
     - node-red
