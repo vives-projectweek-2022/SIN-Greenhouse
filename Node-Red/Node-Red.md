@@ -58,6 +58,7 @@ The service is pointing to port **1880** : [http://{your\_pi\_ip-address}:1880](
 4. To acces the Node-RED web interface use the [http://{your\_pi\_ip-address}:1880](http://{your\_pi\_ip-address}:1880).
 
 ![node-red](./Img/node-red.png)
+![node-red](./Img/node-red_Schema.png)
 ![DashboardV1](./Img/DashboardV1.png)
 
 ## **Common Commands when using Node-RED with Raspberry Pis**

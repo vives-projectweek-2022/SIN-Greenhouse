@@ -37,7 +37,7 @@ sudo systemctl enable nodered.service
 
 ## Implement all code in to node-red
 
-to access the Node-RED web interface using rpi ip:1880 or localhost:1880. When you run the URL address in your browser you should be able to visualize the Noded-RED interface as shown below:
+To access the Node-RED web interface using rpi ip:1880 or localhost:1880. When you run the URL address in your browser you should be able to visualize the Noded-RED interface as shown below:
 
 ![node-red](/Img/node-red.png)| ![DashboardV1](/Img/DashboardV1.png)
 
@@ -51,4 +51,9 @@ to access the Node-RED web interface using rpi ip:1880 or localhost:1880. When y
     - node-red-contrib-ui-led
     - node-red-dashboard
     - node-red-contrib-ui-artless-gauge
+
+
+
+### Extra
+By doing some additional testing, we found out the following: If the first number is bigger than 7 e.g. out of 0xA6 then there is problem because the buffer overflows and it makes the buffer bigger. If this is with the last digit/number. Will the buffer not increase
 <!-- https://help.ubidots.com/en/articles/1958375-how-to-install-node-red-in-raspberry-pi -->
