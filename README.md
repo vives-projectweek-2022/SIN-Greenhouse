@@ -19,4 +19,10 @@ To  install and run the MQTT broker you need to follow the next link.
 
 To  install and run the Node-Red you need to follow the next link.
 
-[Mqtt install](/Node-Red/Node-Red.md)
+[Node install](/Node-Red/Node-Red.md)
+
+## OPC UA
+
+To  install and run the OPC UA server  you need to follow the next link.
+
+[OPC install](/OPCUA/OPC-UA.md)
