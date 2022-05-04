@@ -2,7 +2,7 @@ from opcua import Client
 import time
 
 # This needs to be IP of device server is running on
-url = "opc.tcp://172.21.208.1:4840"
+url = "opc.tcp://172.16.109.173:4840"
 
 client = Client(url)
 

@@ -21,6 +21,9 @@ add
 listener 1883
 allow_anonymous true
 
+listener 9001
+protocol websockets
+
 pi@raspberry:~$ sudo reboot
 
 ```
